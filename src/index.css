@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Monserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 html {
   font-size: 62.5%;
@@ -16,7 +16,7 @@ input,
 select, 
 button,
 textarea {
-  font-family: Monserrat, Arial, Helvetica, sans-serif;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
 }
 
@@ -137,4 +137,18 @@ footer {
 
 .button.primary {
   background-color: #f0c040;
+}
+
+/* filter */
+
+.filter {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: .1rem #c0c0c0 solid;
+  justify-content: space-between;
+}
+
+.filter div {
+  flex: 1;
 }
