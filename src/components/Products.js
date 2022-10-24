@@ -6,7 +6,6 @@ import Zoom from "react-reveal/Zoom";
 import {connect} from "react-redux";
 import {fetchProducts} from "../actions/productActions";
 
-
 class Products extends Component {
     constructor(props) {
         super(props);
@@ -99,4 +98,4 @@ class Products extends Component {
   }
 }
 
-export default connect((state) => ({products: state.products.items}), {fetchProducts})(Products);
+export default connect((state) => ({products: state.products.filteredItems}), {fetchProducts})(Products);
